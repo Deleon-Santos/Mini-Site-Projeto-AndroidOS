@@ -92,6 +92,10 @@ img{
     margin: auto;
     display: block;
 }
+.autora{
+    border-radius: 10px;
+    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.429); 
+}
 
 article{
     padding: 20px;
@@ -144,9 +148,30 @@ main a:hover{
     left: 5%;
     width: 90%;
     height: 90%;
+    border-radius: 10px;
+    
+    box-shadow: 3px 3px 3px rgba(39, 38, 38, 0.503); 
 }
 aside{
-
+    background-color:var(--cor1);
+    box-shadow: 3px 3px 3px rgba(39, 38, 38, 0.503);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside>ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2713\00A0\00A0";/*00A0=spaço apos o simbolo*/
+    
+}
+aside h3{
+    background-color: var(--cor4);
+    color:antiquewhite;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 2px 2 px 2px rgba(0, 0, 0, 0.429); ;
 }
 footer{
     background-color: var(--cor5);
