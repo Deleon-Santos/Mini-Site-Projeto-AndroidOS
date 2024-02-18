@@ -192,6 +192,7 @@ footer{
     height: 50px;
     padding: 20px;
     text-align: center;
+    min-width: 460px;
 }
 footer  a{
     color: var(--cor2);     
@@ -200,6 +201,6 @@ footer a:hover{
     box-shadow: 0px 2px 3px var(--cor2);
     transition-duration: 0.3S;
     color: rgba(250, 235, 215, 0.508);
-    min-width: 460px;
-    margin: auto;
+    
+    
 }
