@@ -36,7 +36,7 @@ header{
     margin: auto;
     
       
-    width: auto;
+    width: 100%;
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -91,7 +91,7 @@ main{
     padding: 10px;
     margin: auto;
     max-width: 1024px;
-    min-width: 460px;
+    min-width: 400px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.462);
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
@@ -194,7 +194,7 @@ footer{
     padding: 20px;
     text-align: center;
     width: auto;
-    min-width: 460px;
+    min-width: 400px;
 }
 footer  a{
     color: var(--cor2);     
