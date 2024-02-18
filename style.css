@@ -33,7 +33,7 @@ header{
     text-align: center;
     height: 150px;
     padding-top: 10px; 
-    min-width: 460px;
+    
     margin: auto;
       
 }
@@ -90,7 +90,7 @@ main{
     padding: 10px;
     margin: auto;
     max-width: 1024px;
-    min-width: 435px;
+    min-width: 460px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.462);
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
@@ -192,7 +192,7 @@ footer{
     height: 50px;
     padding: 20px;
     text-align: center;
-    min-width: 460px;
+    
 }
 footer  a{
     color: var(--cor2);     
