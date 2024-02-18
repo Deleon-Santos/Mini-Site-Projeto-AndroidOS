@@ -33,9 +33,9 @@ header{
     text-align: center;
     height: 160px;
     padding-top: 10px; 
-    width: auto;
     margin: auto;
-      
+    width: auto;
+    min-width: 460px;  
 }
 header > h1{   
     font-family:var(--font-destaque);
