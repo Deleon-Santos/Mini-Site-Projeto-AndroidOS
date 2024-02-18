@@ -34,8 +34,8 @@ header{
     height: 160px;
     padding-top: 10px; 
     margin: auto;
-    width: auto;
-    min-width: 460px;  
+    width: 100%;
+    min-width: 600px;  
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -62,7 +62,7 @@ nav{
     padding-bottom: 20px;
     font-weight: 100;
     font-style: normal;
-    width: auto;
+    width: 100%;
     
 }
 
