@@ -34,8 +34,8 @@ header{
     height: 160px;
     padding-top: 10px; 
     margin: auto;
-    width: 100%;
-    min-width: 700px;  
+    
+      
     width: auto;
 }
 header > h1{   
