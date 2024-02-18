@@ -43,10 +43,11 @@ header > h1{
     color: antiquewhite;
     font-size: 3em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
+    padding: 10px;
     
 }
 header > p{
-    color: white;
+    color: antiquewhite;
     max-width: 600px;
     margin: auto;
     padding-left: 10px;
@@ -70,7 +71,7 @@ nav > a{
     padding-bottom: 5PX;
     color: antiquewhite;
     margin: auto;
-    font-size: .7em;
+    font-size: .8em;
     
 
 }
@@ -82,11 +83,11 @@ nav > a:hover{
 
 }
 main{
-    background-color: white;
+    background-color: antiquewhite;
     padding: 10px;
     margin: auto;
     max-width: 1024px;
-    min-width: 320px;
+    min-width: 435px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.462);
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
