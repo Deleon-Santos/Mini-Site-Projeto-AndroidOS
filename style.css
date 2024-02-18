@@ -32,7 +32,10 @@ header{
     background-image:linear-gradient(to bottom, var(--cor3),var(--cor5)) ;
     text-align: center;
     height: 150px;
-    padding-top: 20px;   
+    padding-top: 20px; 
+    min-width: 435px;
+    margin: auto;
+      
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -40,6 +43,7 @@ header > h1{
     color: antiquewhite;
     font-size: 3em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
+    
 }
 header > p{
     color: white;
@@ -48,33 +52,38 @@ header > p{
     padding-left: 10px;
     padding-right: 10px;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
-
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 nav{
     background-color: var(--cor5);
     padding-bottom: 20px;
+    font-weight: 100;
+    font-style: normal;
 }
 
 nav > a{
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10PX;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5PX;
     color: antiquewhite;
+    margin: auto;
+    font-size: .7em;
     
 
 }
 nav > a:hover{
     box-shadow: 1px 1px 3px var(--cor2);
     transition-duration: 0.3S;
-    border-radius: 10px;
+    border-radius: 5px;
     
 
 }
 main{
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
     max-width: 1024px;
     min-width: 320px;
@@ -98,7 +107,7 @@ img{
 }
 
 article{
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
 main>article> h1{
@@ -137,10 +146,10 @@ main a:hover{
 }
 #video{
     background-color: var(--cor5);
-    padding: 20px;
-    margin: 0px -40px 20px -40px;
+    padding: 0px;
+    margin: 0px -20px 20px -20px;
     position: relative;
-    padding-bottom: 59%;
+    padding-bottom: 58%;
 }
 #video > iframe{
     position: absolute;
