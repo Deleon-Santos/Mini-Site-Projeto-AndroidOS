@@ -46,7 +46,7 @@ header > h1{
 }
 header > p{
     color: antiquewhite;
-    max-width: 500px;
+    max-width: 463px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -88,7 +88,7 @@ main{
     padding: 10px;
     margin: auto;
     max-width: 1000px;
-    min-width: 440px;
+    min-width: 463px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.462);
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
