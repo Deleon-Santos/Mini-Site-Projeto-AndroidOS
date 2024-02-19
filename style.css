@@ -45,6 +45,7 @@ header > h1{
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
     padding: 10px;
     width: 100%;
+    margin: auto;
 }
 header > p{
     color: antiquewhite;
