@@ -32,10 +32,8 @@ header{
     background-image:linear-gradient(to bottom, var(--cor3),var(--cor5)) ;
     text-align: center;
     height: 160px;
-    padding-top: 40px; 
-    margin: auto;
-    width: 100%;
-    min-width: 650;
+    padding-top: 20px;   
+    
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -43,13 +41,15 @@ header > h1{
     color: antiquewhite;
     font-size: 2.5em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
-    padding: 10px;
-    width: 100%;
-    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+    
+    
 }
 header > p{
     color: antiquewhite;
-    max-width: 650px;
+    max-width: 600px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,9 +62,9 @@ header > p{
 nav{
     background-color: var(--cor5);
     padding-bottom: 20px;
-    font-weight: 100;
-    font-style: normal;
-    width: 100%;
+    
+    
+    
     
 }
 
@@ -92,7 +92,7 @@ main{
     padding: 10px;
     margin: auto;
     max-width: 1000px;
-    min-width: 463px;
+    min-width: 350px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.462);
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
