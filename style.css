@@ -32,7 +32,7 @@ header{
     background-image:linear-gradient(to bottom, var(--cor3),var(--cor5)) ;
     text-align: center;
     height: 160px;
-    padding-top: 30px; 
+    padding-top: 20px; 
     margin: auto;
     width: auto;
 }
