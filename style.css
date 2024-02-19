@@ -40,13 +40,13 @@ header > h1{
     font-family:var(--font-destaque);
     margin-bottom: 20px;
     color: antiquewhite;
-    font-size: 2.8em;
+    font-size: 2.5em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
     padding: 10px;
 }
 header > p{
     color: antiquewhite;
-    max-width: 463px;
+    max-width: 650px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
