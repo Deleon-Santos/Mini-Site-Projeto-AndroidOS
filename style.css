@@ -34,19 +34,19 @@ header{
     height: 160px;
     padding-top: 30px; 
     margin: auto;
-    width: 100%;
+    width: auto;
 }
 header > h1{   
     font-family:var(--font-destaque);
     margin-bottom: 20px;
     color: antiquewhite;
-    font-size: 3em;
+    font-size: 2.8em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
-    padding: 20px;
+    padding: 10px;
 }
 header > p{
     color: antiquewhite;
-    max-width: 620px;
+    max-width: 500px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
