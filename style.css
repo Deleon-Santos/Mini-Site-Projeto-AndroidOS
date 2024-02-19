@@ -35,6 +35,7 @@ header{
     padding-top: 20px; 
     margin: auto;
     width: auto;
+    min-width: 650;
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -43,6 +44,7 @@ header > h1{
     font-size: 2.5em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
     padding: 10px;
+    width: 100%;
 }
 header > p{
     color: antiquewhite;
@@ -54,6 +56,7 @@ header > p{
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: .8em;
+    width: 100%;
 }
 nav{
     background-color: var(--cor5);
