@@ -2,12 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@font-face{
-    font-family:" Android";
-    src: url("../fontes/idroid.otf") format("opentype");
-    font-weight: normal;    
-}
-
 :root{
     --cor0:#c5ebd6;
     --cor1:#82e1ad;
@@ -18,7 +12,6 @@
     
     --font-padrao:Arial,Verdana, helvetica, sans-serif;
     --font-destaque:"Bebas Neue", "cursive";
-    --font-android:var("Android", "cursive");
 }
 *{
     margin:0px;
@@ -35,8 +28,7 @@ header{
     background-image:linear-gradient(to bottom, var(--cor3),var(--cor5)) ;
     text-align: center;
     height: 150px;
-    padding-top: 10px;   
-    
+    padding-top: 10px;      
 }
 header > h1{   
     font-family:var(--font-destaque);
@@ -44,10 +36,7 @@ header > h1{
     color: antiquewhite;
     font-size: 2.4em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
-    
-    padding: 20px;
-    
-    
+    padding: 20px;   
 }
 header > p{
     font-family: var(--font-padrao);
@@ -59,20 +48,16 @@ header > p{
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578);
     padding-bottom: 10px;
     margin-bottom: 20px;
-    font-size: .8em;
-    
-    
+    font-size: .8em;   
+}
+#burguer{
+    display:none;
 }
 nav{
     background-color: var(--cor5);
     padding-bottom: 20px;
-    padding-left: 15px;
-    
-    
-    
-    
+    padding-left: 15px;  
 }
-
 nav > a{
     font-family: var(--font-padrao);
     text-decoration-line: underline;
@@ -84,14 +69,11 @@ nav > a{
     margin: auto;
     font-size: .8em;
     text-shadow:2PX 2PX 2PX rgba(25, 24, 22, 0.578) ;
-
 }
 nav > a:hover{
     box-shadow: 1px 1px 3px var(--cor2);
     transition-duration: 0.3S;
-    border-radius: 5px;
-    
-
+    border-radius: 5px;   
 }
 main{
     background-color: antiquewhite;
@@ -103,7 +85,6 @@ main{
     margin-bottom: 30px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-
 }
 img{
     width: 100%;
@@ -117,7 +98,6 @@ img{
     border-radius: 10px;
     box-shadow:3px 3px 3px rgba(0, 0, 0, 0.429); 
 }
-
 article{
     padding: 10px;
     border-radius: 10px;
@@ -134,7 +114,6 @@ main h2{
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
-
 main p{
     margin: 10px 0px;
     text-align: justify;
@@ -149,12 +128,10 @@ main a {
     text-decoration: none;
     font-style: italic ;
     font-weight: 500;
-
 }
 main a:hover{
     text-decoration: underline;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 #video{
     background-color: var(--cor5);
@@ -170,7 +147,6 @@ main a:hover{
     width: 90%;
     height: 90%;
     border-radius: 10px;
-    
     box-shadow: 3px 3px 3px rgba(39, 38, 38, 0.503); 
 }
 aside{
@@ -182,8 +158,7 @@ aside{
 aside>ul{
     list-style-position: inside;
     columns: 2;
-    list-style-type: "\2713\00A0\00A0";/*00A0=spaço apos o simbolo*/
-    
+    list-style-type: "\2713\00A0\00A0";/*00A0=spaço apos o simbolo*/   
 }
 aside h3{
     background-color: var(--cor4);
@@ -199,9 +174,7 @@ footer{
     color: rgba(255, 255, 255, 0.573);
     height: 100px;
     padding: 20px;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 footer  a{
     color: antiquewhite;   
@@ -221,13 +194,7 @@ footer ul{
     columns: 2;
     width: 300px;
     width: auto;
-    
-    
-    
-    
-    
 }
-
 footer p{
     font-size: .8em;
     font-style: italic;
@@ -239,9 +206,8 @@ footer h4{
     border-bottom: 20px;
     padding: 10px;
 }
-#link-topo{
+#topo{
     text-decoration: none;
-    
     padding: 10px;
     position: fixed;
     background-color: rgba(255, 0, 0, 0.264);
@@ -251,10 +217,50 @@ footer h4{
     font-size: 1.2em;
     border-radius: 30px;
 }
-#link-topo:hover{
+#topo:hover{
     box-shadow: 2px 2px 1px antiquewhite;
     background-color: red;
     border: rgba(254, 254, 248, 0.652);
-    transition-duration: .3s;
+    transition-duration: .3s;  
+}
+@media only screen and (max-width:600px) {
+    body{
+        width: 100%;
+    }
+    #opcoes{
+        display: none;
+
+    }
+    #opcoes{
+        display: block;
+        align-items: flex-start;
+        width: 100%;
+        
+        
+
+    }
+    #opcoes a{
+        text-align: center;
+        display: block;
+
+    }
+    #burguer{
+        display:block;
+        background-color: var(--cor5);
+        color: var(--cor0);
+        text-align: left;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        
+
+
+    }
+    #burguer:hover{
+        color: antiquewhite;
+        text-shadow:1px 1px 4px white;
+        cursor: pointer;
+    }
+
     
 }

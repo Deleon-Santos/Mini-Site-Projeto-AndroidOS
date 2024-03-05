@@ -18,8 +18,8 @@
         
         
     </header>
-
-    <nav>
+    <i id="burguer"class="fa-solid fa-bars" onclick="clickMenu()"></i>
+    <nav id="opcoes">
         <a href="#id01">Home</a>
         <a href="#id02">Noticias</a>
         <a href="#id03">Curiosidades</a>
@@ -94,5 +94,14 @@
         <a href="https://www.linkedin.com/in/deleon-santos-1b835a290/" target="_blank">Linkedin  <i class="fa-brands fa-linkedin"></i></a>
         <p>Site Desenvolvido por Gustavo Guanabara para as aulas praticas do curso de <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank">HTML e CSS.</a></p>
     </footer>
+    <script>
+        function clickMenu(){
+            if (opcoes.style.display =="block"){
+                opcoes.style.display="none"
+            } else{
+                opcoes.style.display="block"
+            }
+        }
+    </script>
 </body>
 </html>
